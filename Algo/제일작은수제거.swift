@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  제일작은수제거.swift
 //  Algo
 //
-//  Created by Seokho on 2020/03/30.
+//  Created by Seokho on 2020/03/31.
 //  Copyright © 2020 Seokho. All rights reserved.
 //
 
@@ -19,4 +19,4 @@ func solution(_ arr:[Int]) -> [Int] {
     return cArr
 }
 
-print(solution([4,3,2,1]))
+solution([4,3,2,1])
