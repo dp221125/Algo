@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  최대공배수최소공약수.swift
 //  Algo
 //
-//  Created by Seokho on 2020/03/30.
+//  Created by Seokho on 2020/03/31.
 //  Copyright © 2020 Seokho. All rights reserved.
 //
 
