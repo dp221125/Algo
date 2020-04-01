@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  콜라츠추측.swift
 //  Algo
 //
-//  Created by Seokho on 2020/03/30.
+//  Created by Seokho on 2020/04/01.
 //  Copyright © 2020 Seokho. All rights reserved.
 //
 
@@ -30,5 +30,3 @@ func solution(_ num:Int) -> Int {
     }
     return count
 }
-
-print(solution(6))
