@@ -8,20 +8,12 @@
 
 import Foundation
 
-func solution(_ x:Int, _ n:Int) -> [Int64] {
-    
-    var result = [Int64]()
-    
-    if x == 0 {
-        return [Int64](repeating: 0, count: n)
-    }
+let n = readLine()!.components(separatedBy: [" "]).map { Int($0)! }
+let (a, b) = (n[0], n[1])
 
-    for index in stride(from: Int64(0), to: Int64(n * x + (x > 0 ? 1 : -1)), by: Int64.Stride(Int64(x))) {
-        if index != 0 {
-            result.append(index)
-        }
+for _ in 0..<b {
+    for _ in 0..<a {
+        print("*", terminator: "")
     }
-    return result
+    print()
 }
-
-print(solution(0, 2))
