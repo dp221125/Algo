@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  x간격만큼있는n개의숫자.swift
 //  Algo
 //
-//  Created by Seokho on 2020/03/30.
+//  Created by Seokho on 2020/04/02.
 //  Copyright © 2020 Seokho. All rights reserved.
 //
 
@@ -23,5 +23,3 @@ func solution(_ x:Int, _ n:Int) -> [Int64] {
     }
     return result
 }
-
-print(solution(0, 2))
