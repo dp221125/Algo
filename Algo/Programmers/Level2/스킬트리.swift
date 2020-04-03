@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  스킬트리.swift
 //  Algo
 //
-//  Created by Seokho on 2020/03/30.
+//  Created by Seokho on 2020/04/03.
 //  Copyright © 2020 Seokho. All rights reserved.
 //
 
@@ -27,5 +27,3 @@ func solution(_ skill:String, _ skill_trees:[String]) -> Int {
     
     return results
 }
-
-print(solution("CBD", ["BACDE", "CBADF", "AECB", "BDA"]))
