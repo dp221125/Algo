@@ -32,8 +32,7 @@ func solution(_ number:String, _ k:Int) -> String {
     
     
     if cK > 0 {
-        let sindex = number.index(number.startIndex, offsetBy: number.count - cK)
-        result = String(number[number.startIndex ..< sindex])
+        result = temp[0 ..< temp.count - cK].joined()
     } else {
         result = temp.joined()
     }
