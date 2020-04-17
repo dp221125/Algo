@@ -21,3 +21,21 @@ func isEqual<T: Equatable>(_ a: T, _ b: T, isDebug: Bool = false)  {
         print("Two Argument isn't Equal")
     }
 }
+
+
+func solution(_ clothes:[[String]]) -> Int {
+    
+    var dic = [String: Int]()
+    
+    clothes.forEach { str in
+        if let _ = dic[str.last!] {
+            dic[str.last!]! += 1
+        } else {
+            dic[str.last!] = 1
+        }
+    }
+
+    return  dic.map { $0.value + 1 }.reduce(1, *) - 1
+}
+
+print(solution([["yellow_hat", "headgear"], ["blue_sunglasses", "eyewear"], ["green_turban", "headgear"]]))
