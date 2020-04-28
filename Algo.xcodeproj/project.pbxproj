@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		C31D043E24317E8900739A75 /* Algo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algo; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31D044124317E8900739A75 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C328E3282457BD4500288E8A /* 단어변환.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "단어변환.swift"; sourceTree = "<group>"; };
 		C3365E572449645C002A558D /* 카펫.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "카펫.swift"; sourceTree = "<group>"; };
 		C3365E5924496FA0002A558D /* 위장.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "위장.swift"; sourceTree = "<group>"; };
 		C3435AE32452CE330092020D /* 베스트앨범.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "베스트앨범.swift"; sourceTree = "<group>"; };
@@ -212,6 +213,7 @@
 				C39E45EF24567883003F34B0 /* 종이접기.swift */,
 				C39E45F22456935D003F34B0 /* 숫자게임.swift */,
 				C39E45F52456CDEB003F34B0 /* 기지국설치.swift */,
+				C328E3282457BD4500288E8A /* 단어변환.swift */,
 			);
 			path = Level3;
 			sourceTree = "<group>";
