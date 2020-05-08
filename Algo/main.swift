@@ -5,9 +5,6 @@
 //  Created by Seokho on 2020/03/30.
 //  Copyright © 2020 Seokho. All rights reserved.
 //
-
-import Foundation
-
 func isEqual<T: Equatable>(_ a: T, _ b: T, isDebug: Bool = false)  {
     
     if isDebug {
@@ -21,3 +18,5 @@ func isEqual<T: Equatable>(_ a: T, _ b: T, isDebug: Bool = false)  {
         print("Two Argument isn't Equal")
     }
 }
+
+import Foundation
